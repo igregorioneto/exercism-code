@@ -23,6 +23,7 @@ public class mein {
         for (int i = 0; i < grains.length; i++) {
             BigInteger value = grains[i];
             sum = sum.add(value);
+            System.out.println(i + " = " +sum);
         }
 
 
